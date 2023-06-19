@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+
+    font-size: 1.05em;
+
+   
+}
+.website{
+    padding-left: 8px;
+    color: #deae00;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+    margin: 0 20px;
+}
+.container{
+   padding: 0 15vw;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content-1 , .content-2 , .content-3 , .content-4 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
+    font-size: 2em;
+}
+
+.content-3{
+    display: flex;
+}
+.content-2{
+    margin: auto;
+    width: 64%;
+}
+.main{
+    background: url(assets/hero-icon-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.flag{
+    width: 20px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    box-shadow: 0 4px black;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px 20px;
+    border: solid black 2px;
+    transition:0.5s;
+
+}
+.video-container{
+ width: 60vw;
+ margin: auto;
+ background-color: rgb(255, 255, 255);
+}
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.button-1{
+    background-color: aliceblue;
+}
+.button-2{
+    background-color: #FFd43B;
+}
+.kaalo{
+    width:0% ;
+    transition: 0.1s;
+}
+.btn:hover .kaalo{
+    /* transform: rotateY(360deg); */
+    scale: 10;
+    width: 185px;
+
+}
+
